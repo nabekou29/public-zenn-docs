@@ -20,6 +20,8 @@ Copilot を利用してコミットメッセージを楽に書く方法を紹介
 私はコミットメッセージを書くのが苦手で、特に英語で書くのが苦手です。なので Copilot の力を借りてコミットメッセージを楽に書きたいと思いました。
 
 Neovim から Copilot Chat を利用するプラグイン ([CopilotChat.nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim)) もあり、こちらでもコミットメッセージを生成するができます。
+`:CopilotChatCommitStaged` というコマンドがあり、これを使うことでコミットメッセージを生成することができます。
+今回のやり方でも一部プロンプトを参考にさせていただいています。
 
 # やり方
 
