@@ -125,7 +125,9 @@ require("lazy").setup({
 ```lua
 local opts = {
   dev = {
-    path = vim.fn.systemlist("ghq root")[1] .. "/github.com/nabekou29",
+    path = "~/ghq/github.com/nabekou29",
+    -- path = vim.fn.systemlist("ghq root")[1] .. "/github.com/nabekou29",
+    -- ↑ このようにしても良いが、nvim の起動速度に影響が出るため、可能なら全マシンで固定のパスを指定するのがよい。
     patterns = { "nabekou29" },
     fallback = true,
   },
