@@ -1,0 +1,8 @@
+[tasks.preview]
+description = 'Preview articles'
+run = 'npx zenn preview'
+
+[tasks.new-article]
+description = 'Create new article'
+run = 'npx zenn new:article --slug {{arg(name="slug")}}' # slug はファイル名になるので必須扱いにしておく
+alias = 'new'
