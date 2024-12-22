@@ -13,7 +13,7 @@ published: true
 ---
 
 :::message
-[Unipos Advent Calender 2024](https://qiita.com/advent-calendar/2024/unipos) 15日目の記事です
+[Unipos Advent Calendar 2024](https://qiita.com/advent-calendar/2024/unipos) 15日目の記事です
 :::
 
 今回は、Style Dictionary を使って、JSON や YAML で管理されたデザイントークンを Figma にインポートする方法を紹介します。
