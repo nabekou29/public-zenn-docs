@@ -48,7 +48,34 @@ example.nvim
 ## ビルトインのAPIの補完が効くようにする (`.luarc.json`)
 
 `.luarc.json` を作成して、lua の lsp での補完がされるようにします。lua-language-server が有効になっている環境が前提です。
-プラグインを作成しない場合でも ` ~/.config/nvim/.luarc.json` を設定しておくと、Neovim の設定をする際に補完が効くので設定して損はないと思います。
+プラグインを作成しない場合でも `~/.config/nvim/.luarc.json` を設定しておくと、Neovim の設定をする際に補完が効くので設定して損はないと思います。
+
+:::details ~/.config/nvim/.luarc.json の例
+```json
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "LuaJIT"
+  },
+  "workspace": {
+    "library": [
+      "lua",
+      "$VIMRUNTIME",
+      "${3rd}/luv/library",
+      "${3rd}/busted/library",
+      "$HOME/.local/share/nvim/lazy"
+    ],
+    "checkThirdParty": false
+  }
+}
+```
+
+`"$HOME/.local/share/nvim/lazy"` は lazy.nvim の場合の設定です。
+プラグインの数が多いと、lua_ls の起動が重くなるケースもありそうですが、Config の型を使えることもあるので、
+個人的にはあった方が良いと思います。
+
+:::
+
 
 ```json:.luarc.json
 {
