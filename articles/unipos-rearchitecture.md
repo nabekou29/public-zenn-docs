@@ -3,7 +3,7 @@ title: "Unipos の Elm から React (Next.js) へのリアーキテクチャプ�
 emoji: "🌳"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Elm", "React", "Nextjs", "リアーキテクチャ"]
-published: false
+published: true
 publication_name: "unipos"
 ---
 
