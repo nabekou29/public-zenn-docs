@@ -3,7 +3,7 @@ title: "フロントエンドエンジニアがAI時代に何を学ぶべきか�
 emoji: "💨"
 type: "idea"
 topics: ["frontend", "ai", "design"]
-published: false
+published: true
 publication_name: "unipos"
 ---
 

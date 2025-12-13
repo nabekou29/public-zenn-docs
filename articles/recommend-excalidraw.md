@@ -3,7 +3,7 @@ title: "記事の印象を和らげる作図ツール Excalidraw を勧める話
 emoji: "✏️"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Excalidraw"]
-published: false
+published: true
 publication_name: "unipos"
 ---
 
