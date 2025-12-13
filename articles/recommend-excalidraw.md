@@ -4,6 +4,7 @@ emoji: "✏️"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Excalidraw"]
 published: false
+publication_name: "unipos"
 ---
 
 この記事は [Unipos Advent Calendar 2025](https://qiita.com/advent-calendar/2025/unipos) 12日目の記事です。
@@ -59,7 +60,7 @@ published: false
 
 ## プラグイン (scripts) とちょっとAIの話
 
-Excalidraw は scripts と呼ばれるもの機能を拡張することができます。
+Excalidraw は scripts と呼ばれるもので機能を拡張することができます。
 
 JS で書けるので、普段から JS を書いている人なら簡単に作れると思います。
 
@@ -74,7 +75,7 @@ https://x.com/nabekou29/status/1981498408126005410
 
 AI はこのようなプラグイン的なものを作るのに、めちゃくちゃ向いてます。
 
-Excalidraw に限らず、Chrome 拡張 や Neovim 拡張 や Obsidian プラグインなど、**簡単なコードを書いて拡張できるようツールの価値や可能性が AI によって大きくなったなーと感じます。**
+Excalidraw に限らず、Chrome 拡張 や Neovim 拡張 や Obsidian プラグインなど、**簡単なコードを書いて拡張できるようなツールの価値や可能性が AI によって大きくなったなーと感じます。**
 
 # おわりに
 
