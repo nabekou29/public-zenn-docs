@@ -3,7 +3,7 @@ title: "Figma Plugin を作ってデザイナーとエンジニアを救え"
 emoji: "👩‍🚒"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Figma"]
-published: false
+published: true
 publication_name: "unipos"
 ---
 
