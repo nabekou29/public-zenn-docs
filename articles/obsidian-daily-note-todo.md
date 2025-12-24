@@ -3,7 +3,7 @@ title: "デイリーノートとがんばらないTODO管理【Obsidian】"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["obsidian", "タスク管理", "templater"]
-published: false
+published: true
 publication_name: "unipos"
 ---
 
