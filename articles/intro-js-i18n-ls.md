@@ -7,7 +7,7 @@ topics:
   - "vscode"
   - "i18n"
   - "rust"
-published: false
+published: true
 publication_name: "unipos"
 ---
 
